@@ -1,0 +1,14 @@
+logging:
+  level:
+    org.springframework.web: INFO
+  file:
+    path: "/var/log/esl-demo/"
+    name: "${spring.application.name}.log"
+
+
+
+freeswitch:
+  esl:
+    host: xxx.xxx.xxx.xxx
+    port: xxx
+    password: xxx

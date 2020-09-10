@@ -1,0 +1,6 @@
+logging:
+  level:
+    org.springframework.web: INFO
+  file:
+    path: "/var/log/esl-demo/"
+    name: "${spring.application.name}.log"
