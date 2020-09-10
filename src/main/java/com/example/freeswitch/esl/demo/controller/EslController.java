@@ -1,8 +1,8 @@
 package com.example.freeswitch.esl.demo.controller;
 
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.inbound.Client;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslMessage;
 import lombok.extern.slf4j.Slf4j;
-import org.freeswitch.esl.client.inbound.Client;
-import org.freeswitch.esl.client.transport.message.EslMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

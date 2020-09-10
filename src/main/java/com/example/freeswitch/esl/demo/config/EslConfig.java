@@ -2,12 +2,12 @@ package com.example.freeswitch.esl.demo.config;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.IEslEventListener;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.inbound.Client;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.inbound.InboundConnectionFailure;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.event.EslEvent;
 import com.example.freeswitch.esl.demo.service.TestService;
 import lombok.extern.slf4j.Slf4j;
-import org.freeswitch.esl.client.IEslEventListener;
-import org.freeswitch.esl.client.inbound.Client;
-import org.freeswitch.esl.client.inbound.InboundConnectionFailure;
-import org.freeswitch.esl.client.transport.event.EslEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
