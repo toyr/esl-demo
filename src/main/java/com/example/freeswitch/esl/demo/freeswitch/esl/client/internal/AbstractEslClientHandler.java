@@ -17,8 +17,8 @@ package com.example.freeswitch.esl.demo.freeswitch.esl.client.internal;
 
 import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.event.EslEvent;
 import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslMessage;
-import org.freeswitch.esl.client.transport.message.EslHeaders.Name;
-import org.freeswitch.esl.client.transport.message.EslHeaders.Value;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslHeaders.Name;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslHeaders.Value;
 import org.jboss.netty.channel.*;
 import org.jboss.netty.handler.execution.ExecutionHandler;
 import org.slf4j.Logger;

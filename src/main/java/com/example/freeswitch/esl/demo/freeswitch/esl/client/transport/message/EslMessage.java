@@ -15,7 +15,7 @@
  */
 package com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message;
 
-import org.freeswitch.esl.client.transport.message.EslHeaders.Name;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslHeaders.Name;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

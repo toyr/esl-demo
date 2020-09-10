@@ -19,7 +19,7 @@ import com.example.freeswitch.esl.demo.freeswitch.esl.client.outbound.AbstractOu
 import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.SendMsg;
 import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.event.EslEvent;
 import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslMessage;
-import org.freeswitch.esl.client.transport.message.EslHeaders.Name;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslHeaders.Name;
 import org.jboss.netty.channel.Channel;
 import org.jboss.netty.channel.ChannelHandlerContext;
 

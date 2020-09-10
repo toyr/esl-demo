@@ -20,7 +20,7 @@ import com.example.freeswitch.esl.demo.freeswitch.esl.client.internal.IEslProtoc
 import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.CommandResponse;
 import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.event.EslEvent;
 import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslMessage;
-import org.freeswitch.esl.client.transport.message.EslHeaders.Value;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslHeaders.Value;
 import org.jboss.netty.channel.ChannelHandlerContext;
 import org.jboss.netty.handler.execution.ExecutionHandler;
 

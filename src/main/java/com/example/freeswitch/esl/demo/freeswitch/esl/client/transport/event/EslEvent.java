@@ -17,8 +17,8 @@ package com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.event;
 
 import com.example.freeswitch.esl.demo.freeswitch.esl.client.internal.HeaderParser;
 import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslMessage;
-import org.freeswitch.esl.client.transport.message.EslHeaders.Name;
-import org.freeswitch.esl.client.transport.message.EslHeaders.Value;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslHeaders.Name;
+import com.example.freeswitch.esl.demo.freeswitch.esl.client.transport.message.EslHeaders.Value;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
